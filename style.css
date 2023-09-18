@@ -1,0 +1,50 @@
+body{
+    background: linear-gradient(to right,pink,orange,red);
+}
+.container{
+    border: none;
+    border-radius: 12px;
+    padding: 12px;
+    width: 400px;
+    text-align: center;
+    margin: 90px auto;
+    box-shadow: 2px 2px 11px white;
+    color: white;
+}
+.container input{
+    border: none;
+    background: transparent;
+    border-radius: 12px;
+    padding: 12px;
+    outline: none;
+    color: white;
+    box-shadow: 2px 2px 11px white;
+}
+.container input::placeholder{
+    color: white;
+}
+.icon{
+    border: none;
+    background: none;
+    font-size: larger;
+    color: white;
+}
+.tempBox{
+    display: grid;
+    font-weight: bold;
+}
+.temp{
+    font-size: 60px;
+}
+.footerHead{
+    display: flex;
+    justify-content: space-between;
+}
+.footerHead a{
+    text-decoration: none;
+    color: white;
+
+}
+.footerHead a:hover{
+    color: black;
+}
